@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         .div1{
+            border: 4px black solid;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 140px 420px;
+            background-color: rgba(175, 184, 46, 0.487);
+            font-family: cursive;
+            color: rgb(3, 48, 88);
+            font-weight: bold;
+         }
+         *{
+            text-align: center;
+         }
+         #log{
+            margin-right: 90px;
+         }
+         #email{
+            margin-left: 30px;
+         }
+         #Name{
+            margin-left: 27px;
+         }
+         #phone{
+            margin-left: 27px;
+         }
+         #bt1{
+            color: rgb(19, 71, 54);
+            font-weight: bold;
+            border-radius: 5px;
+            border-color: black;
+         }
+
+         .body1{
+            background-color: rgba(127, 255, 212, 0.236);
+         }
+    </style>
+   
+
+</head>
+<body class="body1">
+    <form id="form1" action="SubmitForm" method="post">
+        <section class="div1">
+            <a href="index2.html" id="log">Login</a>
+            <a href="index.html">Register</a><br/>
+            <br/>
+            <label for="email" id="labelE">Enter Email:</label>
+            <input type="text" id="email" name="email">
+            <br/>
+            <br/>
+            <label for="pass" id="labelP">Enter Password:</label>
+            <input type="password" id="pass" name="pass">
+            <br/>
+            <br/>
+            <label for="Name" id="labelN">Enter Name:</label>
+            <input type="text" id="Name" name="Name">
+            <br/>
+            <br/>
+            <label for="phone" id="labelPh">Enter Phone:</label>
+            <input type="text" id="phone" name="phone">
+            <br/>
+            <br/>
+            <button id="bt1">Register</button>
+        </section>
+    </form>
+</body>
+</html>
